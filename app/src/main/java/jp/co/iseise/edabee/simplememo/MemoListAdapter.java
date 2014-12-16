@@ -1,16 +1,16 @@
 package jp.co.iseise.edabee.simplememo;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.List;
-import java.util.Locale;
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+import java.util.Locale;
 
 /**
  * メモリストアダプター
@@ -23,7 +23,7 @@ public class MemoListAdapter extends ArrayAdapter<Memo> {
 	/**
 	 * コンストラクタ
 	 * @param context
-	 * @param ViewのリソースID
+	 * @param viewResourceId ViewのリソースID
 	 * @param items メモデータ
 	 */
 	public MemoListAdapter(Context context, int viewResourceId, List<Memo> items) {
